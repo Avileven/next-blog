@@ -1,8 +1,8 @@
 body {
   background: #f2f2f2;
   color: #333;
-  font-family: "Nunito";
-}
+  }
+
 a {
   color: #333;
   text-decoration: none;
@@ -12,6 +12,8 @@ a {
   margin: 0 auto;
   color:#777;
 }
+
+/* Navbar */
 nav {
   margin: 10px auto 80px;
   padding: 10px 0;
@@ -23,24 +25,32 @@ nav {
 nav a {
   margin-left: 12px;
   color:cadetblue;
+  font-size: 20px;
+}
+nav a:hover {
+  color: green;
 }
 nav h1 {
   margin-left: 12px;
-  color:rgb(19, 91, 95);
+  color:rgb(92,158,159);
 }
 nav .logo {
   margin-right: auto;
 }
+
+/* Footer */
 footer {
   display: block;
   text-align: center;
   font-size: 55%;
   padding: 30px 0;
-  margin-top: 60px;
+  margin-top: 160px;
+  
   color: #777;
   border-top: 2px solid #eaeaea;
 }
 
+/* 404 page  */
 .lost-page {
 
 text-align: center;
@@ -56,3 +66,160 @@ font-size: large;
   width: 300px;
   height: 200px; 
  }
+   
+    /* single blog page */
+
+   /* Category */
+ .post-page .cat-set {
+  float: right;
+  color: rgb(66,133,185);
+  }
+
+ .post-page .cat-set h2{
+ margin-right: 5px;
+ font-size: 20px;
+ }
+
+  /* single page content */
+
+  .post-page .post-cont h3{
+ font-size: 16px;
+  align-items: center;
+ max-width: 600px;
+      
+  }
+ .post-page .post-cont h4{
+ font-size: 14px;
+ text-align-last: center;
+ max-width: 600px;
+ color:rgb(51,91,147);
+           
+ }
+
+.post-page .post-cont h1{
+font-size: 22px;
+text-align-last: center;
+max-width: 600px;
+
+/* main blog page */
+
+}
+.blog-list ,.blog-list a {
+color:rgb(92,158,159);
+
+}
+
+.blog-list ,.blog-list a:hover {
+  color:rgb(109,89,71);
+  
+  }
+
+.blog-list .blog-img {
+float: right;
+margin-top: 40px;
+  
+}
+ .blog-list h1 {
+   color:rgb(92,158,159);
+ }
+
+
+/* about page */
+
+.about-me .about-img {
+  float: right;
+  margin-top: 50px;
+  animation-name:img ;
+  animation-duration: 4s;
+  
+  
+}
+
+@keyframes img {
+  from {width: 100px ;}
+  to {width:200px;}
+}
+
+
+.about-me .about-cont{
+color:rgb(92,158,159);
+max-width: 485px;
+
+}
+.about-me .about-cont h3 {
+  font-size: 18px;
+}
+.about-me .contact-img{
+  margin-top: 100px;
+  margin-left: 250px;
+  color:rgb(92,158,159);
+  animation-name:img ;
+  animation-duration: 4s;
+  animation-delay: 5s;
+ animation-iteration-count: 5;
+}
+
+/* Homepage /index */
+
+
+.home h1{
+
+
+ animation-name:home ;
+ animation-duration: 3s;
+}
+
+@keyframes home {
+  from {font-size:14px ;}
+  to {font-size: 33px;}
+}
+
+.home .home-cont {
+  display:grid;
+  grid-template-columns: 60% 40%;
+  max-width: 1200px;
+  font-size: 12px;
+  margin-bottom: 100px;
+ 
+  }
+  .home .home-cont h2{
+    margin-top: 100px;
+    font-size: 22px;
+    max-width: 360px;
+    color:rgb(92,158,159);
+   
+    }
+
+.home-data .home-post {
+display:grid;
+grid-template-columns: 70% 30%;
+max-width: 900px;
+font-size: 20px;
+color: rgb(92,158,159)
+}
+
+.home-data .home-post h2{
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+.home-data .home-title h2{
+  font-size: 24px;
+  padding-left: 140px;
+  color: rgb(92,158,159)
+}
+.home-data .home-title h1{
+  font-size: 30px;
+  margin-bottom: 50px;
+  animation-name:title ;
+ animation-duration: 4s;
+ animation-delay: 4s;
+ animation-iteration-count: 2;
+ 
+}
+
+@keyframes title {
+  from {font-size:14px ;}
+  to {font-size: 30px;}
+}
+ 
