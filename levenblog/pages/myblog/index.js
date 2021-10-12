@@ -29,7 +29,9 @@
            </Link>
          ))}
          { data && <LastPost data={data}  /> }
+         
        </div>
+       
      );
    }
     

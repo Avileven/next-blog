@@ -15,7 +15,7 @@ a {
 
 /* Navbar */
 nav {
-  margin: 10px auto 80px;
+  margin: 20px auto 100px;
   padding: 10px 0;
   display: flex;
   justify-content: flex-end;
@@ -23,7 +23,7 @@ nav {
   border-bottom: 1px solid #ddd;
 }
 nav a {
-  margin-left: 12px;
+  margin-left: 50px;
   color:cadetblue;
   font-size: 20px;
 }
@@ -31,8 +31,8 @@ nav a:hover {
   color: green;
 }
 nav h1 {
-  margin-left: 12px;
-  color:rgb(92,158,159);
+ color:rgb(92,158,159);
+ margin-bottom:-3px;
 }
 nav .logo {
   margin-right: auto;
@@ -73,11 +73,14 @@ font-size: large;
  .post-page .cat-set {
   float: right;
   color: rgb(66,133,185);
+  animation-name:img ;
+  animation-duration: 3s;
   }
 
  .post-page .cat-set h2{
- margin-right: 5px;
+ margin-right: 4px;
  font-size: 20px;
+ animation-duration: 1s;
  }
 
   /* single page content */
@@ -100,6 +103,8 @@ font-size: large;
 font-size: 22px;
 text-align-last: center;
 max-width: 600px;
+animation-name:home ;
+ animation-duration: 3s;
 
 /* main blog page */
 
@@ -117,10 +122,11 @@ color:rgb(92,158,159);
 .blog-list .blog-img {
 float: right;
 margin-top: 40px;
-  
 }
- .blog-list h1 {
-   color:rgb(92,158,159);
+
+.blog-list h1 {
+color:rgb(92,158,159);
+font-size: 28px;
  }
 
 
@@ -222,4 +228,33 @@ color: rgb(92,158,159)
   from {font-size:14px ;}
   to {font-size: 30px;}
 }
- 
+
+
+ /* admin :create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  }
+  .create label {
+  text-align: left;
+  display: block;
+  }
+  .create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+  }
+  .create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  }
+  
+  .blog-title{
+  color:rgb(24, 57, 59)
+  }
+  
