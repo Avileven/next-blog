@@ -16,7 +16,7 @@ export const getStaticPaths = async () => {
     fallback: false
   }
 }
-
+// using the params data to the pages and re-build them
 export const getStaticProps = async (context) => {
   const id = context.params.id;
   const res = await fetch('https://my-json-server.typicode.com/Avileven/jsonend/blogs/' + id);
@@ -26,7 +26,7 @@ export const getStaticProps = async (context) => {
     props: {  data }
   }
 }
-
+// create the template for the post page 
 const Details = ({ data }) => {
   return (
     <div className="post-page" >

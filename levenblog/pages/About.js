@@ -26,9 +26,9 @@ const About = () => {
         </div>
        
         <div className="contact-img">
-        <h3>avi@bmax.co.il  </h3>
-            <Image src="/contact.png" alt="avi pic"
-            width={200} height={160} />
+         <Image src="/contact.png" alt="avi pic"    width={200} height={160} />
+         <h3>avi@bmax.co.il  </h3>
+         
         </div>
 
     </div> 

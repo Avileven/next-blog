@@ -29,13 +29,14 @@ const Home = ({ data }) => {
       <div className="home-cont">
     
       <h2>My name is Avi Leventhal. I'm a Web Developer and Digital
-         Media expert.
+         media expert. Experienced entrepreneur in the digital marketplace.
       </h2>
       <Image src="/avi5.png" alt="avi pic" width={400} height={300} />  
      </div>   
      
       
    </div>
+   {/* adding a comp that uses the data to display the last post */}
     { data && <Homepost data={data}  /> } 
     </>    
   
